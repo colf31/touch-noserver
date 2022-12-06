@@ -1,0 +1,1 @@
+D:\AndroidDevelopTool\AndroidStudio\AndroidStudioProjects\InfraredTouch\opencvLib\build\intermediates\cxx\RelWithDebInfo\5o4h6n3x\obj\x86

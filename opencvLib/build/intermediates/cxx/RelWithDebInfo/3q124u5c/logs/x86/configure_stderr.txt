@@ -1,0 +1,71 @@
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/cmake/3.18.1/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake:93 (include)
+
+
+CMake Warning at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/RelWithDebInfo/3q124u5c/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/RelWithDebInfo/3q124u5c/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Warning at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)
+  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/RelWithDebInfo/3q124u5c/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/RelWithDebInfo/3q124u5c/x86/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)
+
+
+CMake Error at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/cmake/3.18.1/share/cmake-3.18/Modules/CMakeTestCCompiler.cmake:66 (message):
+  The C compiler
+
+    "D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/RelWithDebInfo/3q124u5c/x86/CMakeFiles/CMakeTmp
+    
+    Run Build Command(s):D:\AndroidDevelopTool\AndroidStudio\android-sdk-windows\cmake\3.18.1\bin\ninja.exe cmTC_07157 && [1/2] Building C object CMakeFiles/cmTC_07157.dir/testCCompiler.c.o
+    [2/2] Linking C executable cmTC_07157
+    FAILED: cmTC_07157 
+    cmd.exe /C "cd . && D:\AndroidDevelopTool\AndroidStudio\android-sdk-windows\ndk\23.1.7779620\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=i686-none-linux-android21 --gcc-toolchain=D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_07157.dir/testCCompiler.c.o -o cmTC_07157  -latomic -lm && cd ."
+    ld: error: failed to write to the output file: Permission denied
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    ninja: build stopped: subcommand failed.
+    
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+
+

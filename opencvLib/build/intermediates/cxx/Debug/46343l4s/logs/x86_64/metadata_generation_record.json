@@ -1,0 +1,142 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86_64",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 405981361
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\.cxx\\Debug\\46343l4s\\x86_64\\android_gradle_build.json due to:",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 784091244
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\.cxx\\Debug\\46343l4s\\x86_64\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 260192020
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\.cxx\\Debug\\46343l4s\\x86_64\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1643842386
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -794528580
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\.cxx\\Debug\\46343l4s\\x86_64\u0027",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2028301520
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\.cxx\\Debug\\46343l4s\\x86_64\u0027",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1156105916
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"D:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\libcxx_helper\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86_64\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\" ^\n  \"-DANDROID_NDK\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\46343l4s\\\\obj\\\\x86_64\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\46343l4s\\\\obj\\\\x86_64\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\.cxx\\\\Debug\\\\46343l4s\\\\x86_64\" ^\n  -GNinja ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2020594529
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"D:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\libcxx_helper\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86_64\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\" ^\n  \"-DANDROID_NDK\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\46343l4s\\\\obj\\\\x86_64\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\46343l4s\\\\obj\\\\x86_64\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\.cxx\\\\Debug\\\\46343l4s\\\\x86_64\" ^\n  -GNinja ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1088174082
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: -- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - failed\n-- Check for working C compiler: D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\n-- Check for working C compiler: D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe - broken\n-- Configuring incomplete, errors occurred!\nSee also \"D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/CMakeOutput.log\".\nSee also \"D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/CMakeError.log\".\n\nC++ build system [configure] failed while executing:\n    @echo off\n    \"D:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n      \"-HD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\libcxx_helper\" ^\n      \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n      \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n      \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n      \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n      \"-DANDROID_ABI\u003dx86_64\" ^\n      \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64\" ^\n      \"-DANDROID_NDK\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\" ^\n      \"-DCMAKE_ANDROID_NDK\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\" ^\n      \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n      \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\android-sdk-windows\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n      \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\46343l4s\\\\obj\\\\x86_64\" ^\n      \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\46343l4s\\\\obj\\\\x86_64\" ^\n      \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n      \"-BD:\\\\AndroidDevelopTool\\\\AndroidStudio\\\\AndroidStudioProjects\\\\InfraredTouch\\\\opencvLib\\\\.cxx\\\\Debug\\\\46343l4s\\\\x86_64\" ^\n      -GNinja ^\n      \"-DANDROID_STL\u003dc++_shared\"\n  from D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\nCMake Warning (dev) in CMakeLists.txt:\n  No project() command is present.  The top-level CMakeLists.txt file must\n  contain a literal, direct call to the project() command.  Add a line of\n  code such as\n\n    project(ProjectName)\n\n  near the top of the file, but after cmake_minimum_required().\n\n  CMake is pretending there is a \"project(Project)\" command on the first\n  line.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n\nCMake Warning at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/cmake/3.18.1/share/cmake-3.18/Modules/CMakeDetermineSystem.cmake:93 (include)\n\n\nCMake Warning at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)\n  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n\nCMake Warning at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android-legacy.toolchain.cmake:416 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake\u0027s built-in compiler identification.\nCall Stack (most recent call first):\n  D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/build/cmake/android.toolchain.cmake:55 (include)\n  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)\n  D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/CMakeTmp/CMakeLists.txt:2 (project)\n\n\nCMake Error at D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/cmake/3.18.1/share/cmake-3.18/Modules/CMakeTestCCompiler.cmake:66 (message):\n  The C compiler\n\n    \"D:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe\"\n\n  is not able to compile a simple test program.\n\n  It fails with the following output:\n\n    Change Dir: D:/AndroidDevelopTool/AndroidStudio/AndroidStudioProjects/InfraredTouch/opencvLib/.cxx/Debug/46343l4s/x86_64/CMakeFiles/CMakeTmp\n    \n    Run Build Command(s):D:\\AndroidDevelopTool\\AndroidStudio\\android-sdk-windows\\cmake\\3.18.1\\bin\\ninja.exe cmTC_35805 \u0026\u0026 [1/2] Building C object CMakeFiles/cmTC_35805.dir/testCCompiler.c.o\r\n    [2/2] Linking C executable cmTC_35805\r\n    FAILED: cmTC_35805 \r\n    cmd.exe /C \"cd . \u0026\u0026 D:\\AndroidDevelopTool\\AndroidStudio\\android-sdk-windows\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target\u003dx86_64-none-linux-android21 --gcc-toolchain\u003dD:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64 --sysroot\u003dD:/AndroidDevelopTool/AndroidStudio/android-sdk-windows/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -Wformat -Werror\u003dformat-security -Wl,--build-id\u003dsha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections CMakeFiles/cmTC_35805.dir/testCCompiler.c.o -o cmTC_35805  -latomic -lm \u0026\u0026 cd .\"\r\n    ld: error: failed to write to the output file: Permission denied\r\n    clang: error: linker command failed with exit code 1 (use -v to see invocation)\r\n    ninja: build stopped: subcommand failed.\r\n    \n    \n\n  \n\n  CMake will not be able to correctly generate this project.",
+    "file_": "D:\\AndroidDevelopTool\\AndroidStudio\\AndroidStudioProjects\\InfraredTouch\\opencvLib\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86_64",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1922854031
+  }
+]

@@ -1,0 +1,1 @@
+D:\AndroidDevelopTool\AndroidStudio\AndroidStudioProjects\InfraredTouch\opencvLib\build\intermediates\cxx\Debug\f04v3u1e\obj\x86_64
