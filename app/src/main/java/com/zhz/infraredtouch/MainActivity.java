@@ -88,14 +88,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_uvc_camera);
-       // initSimpleBlobParams();
+      //  initSimpleBlobParams();
         initView();
         initUVCCamera();
         initSimpleBlobParams();
 
         Log.d(TAG,"hello world");
 
-      //  MatOfPoint2f  src_pt = new MatOfPoint2f( new Point(123,231),new Point(568,181),new Point(497,313),new Point(168,312)) ;
+
           MatOfPoint2f  src_pt = new MatOfPoint2f( new Point(90,122),new Point(627,121),new Point(566,345),new Point(143,355)) ;
 
         MatOfPoint2f  dst_pt = new MatOfPoint2f( new Point(0,0),new Point(1920,0),new Point(1920,1080),new Point(0,1080)) ;
@@ -150,19 +150,23 @@ public class MainActivity extends AppCompatActivity {
         mUVCCamera.setConnectCallback(new ConnectCallback() {
             @Override
             public void onAttached(UsbDevice usbDevice) {
+
                 mUVCCamera.requestPermission(usbDevice);
+                Log.d(TAG,"onAttached");
             }
 
             @Override
             public void onGranted(UsbDevice usbDevice, boolean granted) {
                 if (granted) {
                     mUVCCamera.connectDevice(usbDevice);
+                    Log.d(TAG,"uvcongranted");
                 }
             }
 
             @Override
             public void onConnected(UsbDevice usbDevice) {
                 mUVCCamera.openCamera();
+                Log.d(TAG,"uvcconnected");
             }
 
             @Override
@@ -170,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
                 showAllPreviewSizes();
                 mUVCCamera.setPreviewSize(640, 480);
                 mUVCCamera.startPreview();
+                Log.d(TAG,"uvcopened");
             }
 
             @Override
@@ -207,10 +212,11 @@ public class MainActivity extends AppCompatActivity {
 
             if (bitmap == null) {
             }
-          //  synchronized (bitmap) {
+            //  synchronized (bitmap) {
 
-                srcBitmap.copyPixelsFromBuffer(frame);
-           if(isTakei) {
+            srcBitmap.copyPixelsFromBuffer(frame);
+           // Log.d(TAG,"nihao5");
+            if(isTakei) {
                 isTakei=false;
                 String path = String.format("%s/%s.jpg", getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS), "2358");
                 try (FileOutputStream fos = new FileOutputStream(path)) {
@@ -231,47 +237,49 @@ public class MainActivity extends AppCompatActivity {
                     Log.d(TAG,"nihao3");
                       }*/
 
-                   // bitmap = Bitmap.createBitmap(srcBitmap.getWidth(), srcBitmap.getHeight(), Bitmap.Config.RGB_565);
-                    Mat rgbMat = new Mat();
+            // bitmap = Bitmap.createBitmap(srcBitmap.getWidth(), srcBitmap.getHeight(), Bitmap.Config.RGB_565);
+          //  Log.d(TAG,"nhao1");
+            Mat rgbMat = new Mat();
+          //  Log.d(TAG,"nihao7");
+            Utils.bitmapToMat(srcBitmap, rgbMat);
 
-                    Utils.bitmapToMat(srcBitmap, rgbMat);
+            MatOfKeyPoint mKeyPoint=new MatOfKeyPoint();
 
-                    MatOfKeyPoint mKeyPoint=new MatOfKeyPoint();
+            try {
+                mSimpleBlobDetector.detect(rgbMat, mKeyPoint);
+              //  Log.d(TAG,"nihao6");
+            }catch (Exception e){
+                Log.d(TAG,"nihao5");
+            }
+            for(KeyPoint p:mKeyPoint.toList()){
+                //   KeyPoint q=new KeyPoint();
+                Log.d(TAG,"x is "+p.pt.x+"y is "+p.pt.y);
+                Point point=new Point();
+                point.x=(m_data[0]* p.pt.x+m_data[1]*  p.pt.y+m_data[2] )/(m_data[6]*p.pt.x+m_data[7]*  p.pt.y+m_data[8] );
+                point.y=(m_data[3]* p.pt.x+m_data[4]*  p.pt.y+m_data[5] )/(m_data[6]*p.pt.x+m_data[7]*  p.pt.y+m_data[8] );
+                if(point.x>1920)
+                    point.x=1920;
+                if(point.y>1080)
+                    point.y=1080;
+                if(point.x<0)
+                    point.x=0;
+                if(point.y<0)
+                    point.y=0;
+                Log.d(TAG," dis x is "+point.x+"dis y is "+point.y);
 
-                   try {
-                       mSimpleBlobDetector.detect(rgbMat, mKeyPoint);
-                   }catch (Exception e){
-                       Log.d(TAG,"nihao5");
-                   }
-                    for(KeyPoint p:mKeyPoint.toList()){
-                     //   KeyPoint q=new KeyPoint();
-                         Log.d(TAG,"x is "+p.pt.x+"y is "+p.pt.y);
-                            Point point=new Point();
-                            point.x=(m_data[0]* p.pt.x+m_data[1]*  p.pt.y+m_data[2] )/(m_data[6]*p.pt.x+m_data[7]*  p.pt.y+m_data[8] );
-                            point.y=(m_data[3]* p.pt.x+m_data[4]*  p.pt.y+m_data[5] )/(m_data[6]*p.pt.x+m_data[7]*  p.pt.y+m_data[8] );
-                            if(point.x>1920)
-                                point.x=1920;
-                            if(point.y>1080)
-                                point.y=1080;
-                            if(point.x<0)
-                                point.x=0;
-                            if(point.y<0)
-                                point.y=0;
-                        Log.d(TAG," dis x is "+point.x+"dis y is "+point.y);
+                //    Instrumentation inst =new Instrumentation();
+                //  inst.sendPointerSync(MotionEvent.obtain(SystemClock.uptimeMillis(),0,MotionEvent.ACTION_DOWN,(float)p.pt.x,(float)p.pt.y,0));
+                //     inst.sendPointerSync(MotionEvent.obtain(SystemClock.uptimeMillis(),0,MotionEvent.ACTION_UP,(float)p.pt.x,(float)p.pt.y,0));
 
-                        //    Instrumentation inst =new Instrumentation();
-                   //  inst.sendPointerSync(MotionEvent.obtain(SystemClock.uptimeMillis(),0,MotionEvent.ACTION_DOWN,(float)p.pt.x,(float)p.pt.y,0));
-                   //     inst.sendPointerSync(MotionEvent.obtain(SystemClock.uptimeMillis(),0,MotionEvent.ACTION_UP,(float)p.pt.x,(float)p.pt.y,0));
-
-                    }
-                    Utils.matToBitmap(rgbMat, bitmap);
+            }
+            Utils.matToBitmap(rgbMat, bitmap);
 
             // Mat grb = new Mat();
 
 
-                }
-         //   }
-       //}
+        }
+        //   }
+        //}
     };
 
     public void onClick(View v) {
@@ -284,7 +292,8 @@ public class MainActivity extends AppCompatActivity {
 
                 mUVCCamera.getUVCCamera().setFrameCallback(mIFrameCallback,UVCCamera.PIXEL_FORMAT_RGB565);
                //    mUVCCamera.getUVCCamera().setFrameCallback(mIFrameCallback,UVCCamera.PIXEL_FORMAT_YUV420SP);
-
+                Intent startIntent =new Intent(this,iruvcService.class);
+                startService(startIntent);
                 Log.d(TAG,"wocao");
 
 
@@ -292,7 +301,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.btn2:
               //  mUVCCamera.stopPreview();
-                mUVCCamera.takePicture();
+                //1mUVCCamera.takePicture();
 
                // mUVCCamera.savePicture();
                 break;
